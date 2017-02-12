@@ -25,3 +25,6 @@ Then restart nginx
 service nginx stop
 service nginx start
 service nginx restart
+
+So now the nginx config is routing the requests coming to <ip>:80 to the python flask app 
+which is running on gunicorn port 5000
